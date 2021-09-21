@@ -21,7 +21,7 @@ class Application:
 
         self.master.config(menu=barraDeMenu)
 
-        #definindo opção de dispositivos de saída
+        #definindo opção de dispositivos de entrada
         deviceOutput=Frame(self.master)
         deviceOutput.pack(pady=60)
 
